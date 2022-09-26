@@ -1,0 +1,15 @@
+body{
+    background: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.button{
+    background: white;
+    color: black;
+}
+
+.button:hover {
+    background-color: #00D0BF;
+    color:white;
+}
