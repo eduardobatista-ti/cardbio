@@ -1,6 +1,6 @@
 body{
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     margin: 0 auto;
     padding: 10px;
     align-items: center;
@@ -28,13 +28,16 @@ li{
 
 .button{
     display: block;
+    cursor: pointer;
+    border-radius: 5px;
     height: 60px;
     line-height: 60px;
     padding: 0;
     margin-bottom: 15px;
     text-decoration: none;
-    background: white;
-    color: black;
+    background: grey;
+    color: white;
+    box-shadow: 5px 5px 5px black;
 }
 
 .button:hover {
@@ -47,7 +50,7 @@ li{
     border: 5px;
     border-style: solid;
     border-radius: 100%;
-    border-color: white;
+    border-color: black;
     margin: 30px 0 0 0;
 }
 
